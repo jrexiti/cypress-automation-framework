@@ -10,7 +10,9 @@
   "license": "ISC",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.4",
-    "cypress": "^12.14.0"
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.14.0",
+    "ts-loader": "^9.5.1"
   },
   "dependencies": {
     "npx": "^10.2.2"
