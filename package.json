@@ -9,6 +9,7 @@
   "author": "Rex",
   "license": "ISC",
   "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.4",
     "cypress": "^12.14.0"
   },
   "dependencies": {
