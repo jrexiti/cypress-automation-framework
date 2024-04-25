@@ -16,5 +16,8 @@
   },
   "dependencies": {
     "npx": "^10.2.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": "cypress/sipport/stepDefinitions/**/*.js"
   }
 }
