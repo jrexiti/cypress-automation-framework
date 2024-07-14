@@ -9,3 +9,14 @@ describe("task management", () => {
     cy.get(".modal").should("not.exist");
   });
 });
+describe("crete a new task", () => {
+  it("should create a new task", () => {
+    cy.visit("http://localhost:5173/");
+    cy.contains("Add Task").click();
+    cy.get('#title').type("New Task");
+    cy.get('#summary').type("New Task Description");
+    cy.get('#category').select("urgent");
+    cy.contains("Add Task").click();
+    cy.get(".task").should("have.length", 1);
+  });
+});
